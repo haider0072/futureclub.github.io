@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville&display=swap');
+
+
+/* Font Styles */
+.heading-1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+.heading-1.black {
+    color: #0F0E0D;
+}
+
+.body-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7B7B7B;
+    margin: 0;
+}
+
+.nav-link {
+    font-family: 'Inter'sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: #7B7B7B;
+}

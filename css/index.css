@@ -1,0 +1,25 @@
+body {
+    background-color: #0F0E0D;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Sections Styling */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 180px;
+
+}
+
+.hero-heading-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
