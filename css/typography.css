@@ -5,6 +5,7 @@
 .heading-1 {
     font-family: 'Libre Baskerville', serif;
     font-size: 60px;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -14,7 +15,7 @@
 
 .body-text {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     color: #7B7B7B;
     margin: 0;
