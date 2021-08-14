@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-.heading-1.black {
+.black {
     color: #0F0E0D;
 }
 
@@ -27,4 +27,8 @@
     font-size: 14px;
     text-decoration: none;
     color: #7B7B7B;
+}
+
+.center-aligned {
+    text-align: center;
 }

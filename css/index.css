@@ -50,28 +50,40 @@ body::-webkit-scrollbar {
     height: auto;
 }
 
+/* Offer Heading */
+
 .offer-heading {
     padding-top: 35vw;
-    padding-bottom: 20%;
+    padding-bottom: 30vw;
     margin-left: 6.9%;
+}
+
+.btn-learn-more {
+    display: flex;
+    align-items: center;
+    color: #7b7b7b;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    border-width: 0;
+    padding: 24px 0 24px 0;
 }
 
 /* Offer Grid */
 
 .offer-gird-img {
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    top: 27vw;
     right: 0;
     width: 61%;
     height: 50%;
-    background-color: yellowgreen;
 }
 
 .grid-img-container {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: tomato;
     width: 100%;
     height: 100%;
 }
@@ -80,22 +92,66 @@ body::-webkit-scrollbar {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    background-color: turquoise;
 }
 
 .offer-img-1 {
     height: 400px;
-    padding-right: 100px;
+    width: 280px;
+    background-image: url(/assets/offer-img-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 100px;
 }
 
 .grid-img-2 {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    background-color: turquoise;
+    justify-content: space-between;
 }
 
-.offer-img-2 {
-    height: 400px;
-    padding-right: 100px;
+.offer-img-2-1 {
+    height: 280px;
+    width: 55%;
+    background-image: url(/assets/offer-img-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.offer-img-2-2 {
+    height: 280px;
+    width: 45%;
+    background-image: url(/assets/offer-img-3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-img-3 {
+    width: 100%;
+    display: flex;
+}
+
+.offer-img-3 {
+    height: 392px;
+    width: 42%;
+    margin-left: 70px;
+    background-image: url(/assets/offer-img-4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 100px;
+}
+
+/* Social Proof Section */
+
+.social-proof-section {
+    margin-top: 32vw;
+    padding-bottom: 30vw;
+}
+
+.brand-list {
+    display: flex;
+    justify-content: center;
 }

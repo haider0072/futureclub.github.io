@@ -17,6 +17,18 @@
     margin-top: 32px;
 }
 
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-56 {
+    margin-top: 56px;
+}
+
 /* Margin Bottom */
 .mb-8 {
     margin-bottom: 8px;
@@ -32,6 +44,19 @@
 
 .mb-32 {
     margin-bottom: 32px;
+}
+
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-48 {
+    margin-bottom: 48px;
+}
+
+.mb-56 {
+    margin-bottom: 56px;
 }
 
 /* Margin Right */
@@ -51,6 +76,18 @@
     margin-right: 32px;
 }
 
+.mr-40 {
+    margin-right: 40px;
+}
+
+.mr-48 {
+    margin-right: 48px;
+}
+
+.mr-56 {
+    margin-right: 56px;
+}
+
 /* Margin Left */
 .ml-8 {
     margin-left: 8px;
@@ -66,6 +103,18 @@
 
 .ml-32 {
     margin-left: 32px;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+.ml-48 {
+    margin-left: 48px;
+}
+
+.ml-56 {
+    margin-left: 56px;
 }
 
 /* Padding */
