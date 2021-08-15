@@ -18,3 +18,20 @@
     border: 1px solid white;
     box-sizing: border-box;
 }
+
+.btn-learn-more {
+    display: flex;
+    align-items: center;
+    color: #7b7b7b;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    border-width: 0;
+    padding: 24px 0 24px 0;
+}
+
+.btn-learn-more::after {
+    content: url('/assets/icon-arrow.svg');
+    margin-left: 24px;
+}
