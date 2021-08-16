@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/css/button.css">
     <link rel="stylesheet" href="/css/spacing.css">
     <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/switch.css">
+    <link rel="stylesheet" href="/css/locomotive.css">
 </head>
 
 <body>
@@ -53,7 +55,7 @@
         <!-- Offer Heading -->
         <div class="offer-heading">
             <h1 class="heading-1 black">Access over 20,000<br>local & national offers<br>and rewards</h1>
-            <button class="btn-learn-more mt-24">Learn More
+            <button class="btn-learn-more mt-24">View all offers
             </button>
         </div>
         <!-- Offer Grid Image -->
@@ -92,12 +94,33 @@
 
     <!-- Plans Section -->
     <section class="plan-section">
-        <div class="plan-heading-section">
-            <h1 class="heading-1">Plans and Pricing</h1>
-            <p class="body-text">30-day free trial, cancel any time. No credit card required.</p>
-            <div></div>
+        <div class="plan-heading-section mb-56">
+            <div class="plan-header mb-48">
+                <h1 class="heading-1 mb-16">Plans and Pricing</h1>
+                <p class="body-text">30-day free trial, cancel any time. No credit card required.</p>
+            </div>
+            <div class="plan-type">
+                <!-- Annual Plan -->
+                <div class="annual-plan mr-16 mb-16">
+                    <span class="caption">Save 13%</span>
+                    <span class="body-text white medium">Annual Plans</span>
+                </div>
+                <!-- Switch -->
+                <label class="switch mr-16">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <!-- Monthly Plan -->
+                <div>
+                    <span class="body-text white medium">Monthly Plans</span>
+                </div>
+            </div>
+
         </div>
     </section>
+
+    <!-- SCRIPT FILES -->
+    <script src="/script/index.js"></script>
 </body>
 
 </html>

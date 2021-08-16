@@ -1,37 +1,37 @@
 /* Button Styling */
 .btn-cta {
-    padding: 24px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    color: white;
-    background-color: #A8844E;
-    border-radius: 0;
-    border-width: 0;
+  padding: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: white;
+  background-color: #a8844e;
+  border-radius: 0;
+  border-width: 0;
 }
 
 .btn-secondary {
-    padding: 11px 14px 11px 14px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    color: white;
-    background-color: transparent;
-    border: 1px solid white;
-    box-sizing: border-box;
+  padding: 11px 14px 11px 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  box-sizing: border-box;
 }
 
 .btn-learn-more {
-    display: flex;
-    align-items: center;
-    color: #7b7b7b;
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    background-color: transparent;
-    border-width: 0;
-    padding: 24px 0 24px 0;
+  display: flex;
+  align-items: center;
+  color: #7b7b7b;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background-color: transparent;
+  border-width: 0;
+  padding: 24px 0 24px 0;
 }
 
 .btn-learn-more::after {
-    content: url('/assets/icon-arrow.svg');
-    margin-left: 24px;
+  content: url("/assets/icon-arrow.svg");
+  margin-left: 24px;
 }
