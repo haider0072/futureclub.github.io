@@ -1,0 +1,168 @@
+body {
+  background-color: #0f0e0d;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Sections Styling */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 6.9%;
+  margin-left: 6.9%;
+  margin-top: 140px;
+}
+
+.hero-heading-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Offer Section */
+
+.offer-section {
+  position: relative;
+  margin-top: 22vw;
+  background-color: #f2ede6;
+  min-height: 100vh;
+}
+
+.offer-img-layout {
+  position: absolute;
+  top: -19vw;
+}
+
+.offer-img-container {
+  margin: 0 14% 0 14%;
+}
+
+.offer-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Offer Heading */
+
+.offer-heading {
+  padding-top: 35vw;
+  padding-bottom: 30vw;
+  margin-left: 6.9%;
+}
+
+/* Offer Grid */
+
+.offer-gird-img {
+  position: absolute;
+  top: 27vw;
+  right: 0;
+  width: 61%;
+  height: 50%;
+}
+
+.grid-img-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-img-1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.offer-img-1 {
+  height: 400px;
+  width: 280px;
+  background-image: url(/offer-img-1.db044a48.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 100px;
+}
+
+.grid-img-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer-img-2-1 {
+  height: 280px;
+  width: 55%;
+  background-image: url(/offer-img-2.639eeec0.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.offer-img-2-2 {
+  height: 280px;
+  width: 45%;
+  background-image: url(/offer-img-3.e8651acb.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-img-3 {
+  width: 100%;
+  display: flex;
+}
+
+.offer-img-3 {
+  height: 521px;
+  width: 42%;
+  margin-left: 70px;
+  background-image: url(/offer-img-4.3fe9326c.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 100px;
+}
+
+/* Social Proof Section */
+
+.social-proof-section {
+  margin-top: 39vw;
+  padding-bottom: 16vw;
+}
+
+.brand-list {
+  display: flex;
+  justify-content: center;
+}
+
+/* Plan & Pricing */
+.plan-section {
+  display: flex;
+  justify-content: center;
+}
+.annual-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan-heading-section {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.plan-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*# sourceMappingURL=/css.967bad95.css.map */
