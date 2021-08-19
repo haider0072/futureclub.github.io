@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Signature;
+  src: url(/SallimSignature.25958365.otf);
+}
+@font-face {
+  font-family: Milk;
+  src: url(/milk-and-balls-thin.89d0cf26.ttf);
+}
+/* Font Styles */
+.heading {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.hide-text {
+  display: block;
+  color: #f2ede6;
+  font-family: "Milk";
+  font-size: 116px;
+  font-weight: lighter;
+  position: relative;
+}
+
+.caption-section {
+  position: relative;
+  height: 2px;
+  left: 0.8vw;
+}
+
+.script-text {
+  font-size: 46px;
+  font-family: "Signature";
+  color: #FA4026;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: "Milk";
+  font-weight: lighter;
+  color: white;
+  font-size: 60px;
+  margin: 0;
+}
+
+.ts-116 {
+  font-size: 116px !important;
+}
+
+.dark {
+  color: #7b7b7b !important;
+}
+
+.orange {
+  color: #FA4026;
+}
+
+.black {
+  color: #0f0e0d;
+}
+
+.white {
+  color: white !important;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.al-center {
+  text-align: center;
+}
+
+.body-text {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #7b7b7b;
+  margin: 0;
+}
+
+.caption {
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: #FA4026;
+}
+
+.nav-link {
+  font-family: "Inter" sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+  color: #7b7b7b;
+}
+
+.center-aligned {
+  text-align: center;
+}
+
+/*# sourceMappingURL=/typography.876a9915.css.map */

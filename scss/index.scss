@@ -1,0 +1,177 @@
+@import "colors";
+
+*{
+  margin: 0;
+}
+
+body {
+  background-color: $bgBlack;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Sections Styling */
+.hero-section {
+  margin-right: 6.9%;
+  margin-left: 6.9%;
+  margin-top: 7vw;
+}
+
+.hero-heading-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.span-text-section{
+  width: 100%;
+  text-align: center;
+  height: 10px;
+}
+
+/* Offer Section */
+
+.offer-section {
+  position: relative;
+  margin-top: 32vw;
+  background-color: $bgBrown;
+  min-height: 100vh;
+}
+
+.offer-img-layout {
+  position: absolute;
+  top: -19vw;
+}
+
+.offer-img-container {
+  margin: 0 14% 0 14%;
+}
+
+.offer-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Offer Heading */
+
+.offer-heading {
+  padding-top: 35vw;
+  padding-bottom: 30vw;
+  margin-left: 6.9%;
+}
+
+/* Offer Grid */
+
+.offer-gird-img {
+  position: absolute;
+  top: 27vw;
+  right: 0;
+  width: 61%;
+  height: 50%;
+}
+
+.grid-img-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-img-1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.offer-img-1 {
+  height: 400px;
+  width: 280px;
+  background-image: url(/assets/offer-img-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 100px;
+}
+
+.grid-img-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer-img-2-1 {
+  height: 280px;
+  width: 55%;
+  background-image: url(/assets/offer-img-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.offer-img-2-2 {
+  height: 280px;
+  width: 45%;
+  background-image: url(/assets/offer-img-3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-img-3 {
+  width: 100%;
+  display: flex;
+}
+
+.offer-img-3 {
+  height: 521px;
+  width: 42%;
+  margin-left: 70px;
+  background-image: url(/assets/offer-img-4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 100px;
+}
+
+/* Social Proof Section */
+
+.social-proof-section {
+  margin-top: 39vw;
+  padding-bottom: 16vw;
+}
+
+.brand-list {
+  display: flex;
+  justify-content: center;
+}
+
+/* Plan & Pricing */
+.plan-section {
+  display: flex;
+  justify-content: center;
+}
+
+.annual-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-heading-section {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.plan-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

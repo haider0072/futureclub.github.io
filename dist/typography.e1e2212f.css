@@ -1,21 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville&display=swap");
 
+@font-face {
+  font-family: Signature;
+  src: url(/SallimSignature.25958365.otf);
+}
+
+@font-face {
+  font-family: Milk;
+  src: url(/milk-and-balls-thin.89d0cf26.ttf);
+}
+
 /* Font Styles */
 .heading-1 {
-  font-family: "Libre Baskerville", serif;
+  font-family: 'Milk';
   font-size: 60px;
-  font-weight: 400;
-  margin: 0;
+  font-weight: lighter;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.span-text {
+  font-family: 'Signature';
+  font-size: 46px;
+}
+
+.ts-116 {
+  font-size: 116px !important;
+}
+
+.dark {
+  color: #7b7b7b !important;
+}
+
+.orange {
+  color: #FA4026;
 }
 
 .black {
   color: #0f0e0d;
 }
+
 .white {
   color: white !important;
 }
+
 .medium {
   font-weight: 500;
+}
+
+.al-center {
+  text-align: center;
 }
 
 .body-text {
@@ -35,9 +69,9 @@
 }
 
 .nav-link {
-  font-family: "Inter" sans-serif;
+  font-family: "Inter"sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
   color: #7b7b7b;
 }
@@ -45,6 +79,5 @@
 .center-aligned {
   text-align: center;
 }
-
 
 /*# sourceMappingURL=/typography.e1e2212f.css.map */

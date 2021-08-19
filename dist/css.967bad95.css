@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
   align-items: center;
   margin-right: 6.9%;
   margin-left: 6.9%;
-  margin-top: 140px;
+  margin-top: 7vw;
 }
 
 .hero-heading-section {
@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 
 .offer-section {
   position: relative;
-  margin-top: 22vw;
+  margin-top: 32vw;
   background-color: #f2ede6;
   min-height: 100vh;
 }
@@ -148,21 +148,23 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
 }
+
 .annual-plan {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .plan-heading-section {
   display: flex;
   flex-direction: column;
   justify-self: center;
 }
+
 .plan-type {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 /*# sourceMappingURL=/css.967bad95.css.map */
